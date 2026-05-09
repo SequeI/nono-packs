@@ -32,8 +32,7 @@
       "$HOME/.claude",
       "$HOME/.cache/claude",
       "$HOME/.config/nono/profile-drafts",
-      "/tmp/claude-$UID",
-      "$HOME/Library/Keychains"
+      "/tmp/claude-$UID"
     ],
     "read": [
       "$HOME/.config/nono/packages",
@@ -43,8 +42,7 @@
       "$HOME/.claude.json",
       "$HOME/.claude.json.lock",
       "$HOME/.claude.lock"
-    ],
-    "bypass_protection": ["$HOME/Library/Keychains"]
+    ]
   },
   "network": { "block": false },
   "workdir": { "access": "readwrite" },
